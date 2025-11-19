@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+<section class="projects">
+    <h1>My Projects</h1>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x250" alt="Project Image">
+            <h3>Portfolio Website</h3>
+            <p>A clean, responsive personal portfolio website.</p>
+            <a href="#" class="btn small">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x250" alt="Project Image">
+            <h3>Task Manager App</h3>
+            <p>A JavaScript-based to-do/task manager with local storage.</p>
+            <a href="#" class="btn small">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x250" alt="Project Image">
+            <h3>UI Dashboard</h3>
+            <p>A modern dashboard UI built using HTML, CSS Grid, and JS.</p>
+            <a href="#" class="btn small">View on GitHub</a>
+        </div>
+
+    </div>
+</section>
+
+<script src="scripts.js"></script>
+</body>
+</html>
